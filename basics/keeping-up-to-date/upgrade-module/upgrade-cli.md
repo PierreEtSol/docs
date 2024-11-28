@@ -94,7 +94,7 @@ To upgrade your PrestaShop store to the latest version using the command line in
 
 1. Create a configuration file for the AutoUpgrade module to use the local archive. Adjust the settings as needed:
 
-`echo "{\"channel\":\"archive\",\"archive_prestashop\":\"prestashop.zip\",\"archive_num\":\"8.0.2\", \"archive_xml\":\"prestashop.xml\", \"PS_AUTOUP_CHANGE_DEFAULT_THEME\":0, \"skip_backup\": 1}" > modules/autoupgrade/config.json`
+`echo "{\"channel\":\"archive\",\"archive_prestashop\":\"prestashop.zip\",\"archive_num\":\"8.0.2\", \"archive_xml\":\"prestashop.xml\", \"PS_AUTOUP_CHANGE_DEFAULT_THEME\":0}" > modules/autoupgrade/config.json`
 
 
 2. Apply the configuration to the `autoupgrade` module:
